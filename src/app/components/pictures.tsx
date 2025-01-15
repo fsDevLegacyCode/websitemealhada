@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Pictures() {
 
 const [data, setData] = useState<{
-    thumbnailUrl: any; title: string; url: string 
+    thumbnailUrl: string; title: string; url: string 
 }[] | null>(null);
 
 async function callPicturesData() {

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Profile  from "../app/components/profile";
 
 
