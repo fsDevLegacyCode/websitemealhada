@@ -36,7 +36,7 @@ useEffect(() => {
       <div className="flex flex-row items-start justify-start h-screen w-screen">
         <div className="flex flex-col items-center justify-start w-1/3 h-1/3 m-1 p-1 bg-gray-200 rounded-lg">
         <div className="flex items-center justify-center w-1/3 h-1/3">
-          <Image className="w-auto h-full rounded-full border border-black" src={data.results[0].picture.large} alt="Profile" />
+          <img className="w-auto h-full rounded-full border border-black" src={data.results[0].picture.large} alt="Profile"/>
         </div>
         <div className="flex items-center justify-center w-full h-full">
           {data.results[0].name.title + " " + data.results[0].name.first + " " + data.results[0].name.last}

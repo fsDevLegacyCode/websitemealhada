@@ -1,4 +1,4 @@
-import Profile  from "../app/components/profile";
+import Profile  from "./components/profile";
 
 
 

@@ -24,7 +24,7 @@ return(
             data.map((item, index) => (
                 <div key={index}>
                     <h3>{item.title}</h3>
-                    <Image src={item.url} alt={item.title} width={150} height={150} />
+                    <img src={item.url} alt={item.title} width={150} height={150} />
                 </div>
             
             ))
